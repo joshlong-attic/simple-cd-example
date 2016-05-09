@@ -17,11 +17,8 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@RequestMapping(method = RequestMethod.GET, value = {"/hi", "/hello"})
+	@RequestMapping(method = RequestMethod.GET, value = {"/hi"})
 	Map<String, String> hello() {
 		return Collections.singletonMap("greeting", "Hello, world!");
 	}
 }
- 
- /* */ 
- /* */ 
