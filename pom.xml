@@ -22,7 +22,6 @@
         <java.version>1.8</java.version>
         <build.number>0.0.1-SNAPSHOT</build.number>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -39,7 +38,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
