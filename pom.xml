@@ -76,6 +76,7 @@
                                 </buildUrl>
                                 <principal>{{USER}}</principal>
                                 <vcsRevision>{{TRAVIS_COMMIT}}</vcsRevision>
+
                             </buildInfo>
                         </configuration>
                     </execution>
